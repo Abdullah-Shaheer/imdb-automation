@@ -35,10 +35,10 @@ def automate():
     log_message("Entering username and password...")
     username = driver.find_element(By.XPATH,
                                    "/html/body/div[2]/div[1]/div[2]/div/div[2]/div[2]/div/form/div/div/div/div[1]/input")
-    username.send_keys("jjthomson4433@gmail.com")
+    username.send_keys("your_gmail")
     password = driver.find_element(By.XPATH,
                                    "/html/body/div[2]/div[1]/div[2]/div/div[2]/div[2]/div/form/div/div/div/div[2]/input")
-    password.send_keys("butterfly965965")
+    password.send_keys("your_pass")
     username.submit()
 
     log_message("Performing search...")
